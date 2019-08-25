@@ -1,6 +1,6 @@
 #include "queue.h"
 
-Node_line *CreateNode(int x){
+Node_line *CreateNode(Type x){
     Node_line *aux = (Node_line*) malloc(sizeof(Node_line));
     aux->data = x;
     aux->next = NULL;
